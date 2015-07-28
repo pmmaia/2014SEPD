@@ -11,6 +11,8 @@ gem 'jbuilder', '~> 2.0'
 gem 'sdoc', '~> 0.4.0',          group: :doc
 gem 'spring',        group: :development
 gem 'devise'
+gem 'activeadmin', github: 'gregbell/active_admin'
+gem 'cancancan'
 group :development do
   gem 'better_errors'
   gem 'binding_of_caller', :platforms=>[:mri_21]
